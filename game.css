@@ -8,5 +8,19 @@ h2 {
 }
 
 h3 {
-    
+
+}
+
+.card {
+    border: 2px solid black;
+    -webkit-box-shadow: -5px 2px 15px -1px #000000; 
+    box-shadow: -5px 1px 15px -1px #000000;
+}
+
+.marginCenter {
+    margin: auto;
+}
+
+.score {
+    font-size: 5rem;
 }
