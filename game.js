@@ -4,7 +4,7 @@ let enHealth = 100
 let p1count = 0
 //let actions = [`slap`, `kick`, `punch`]
 
-function test() {
+function player2() {
     let options = [
         { name: 'slap', damage: 1 },
         { name: 'punch', damage: 5 },
@@ -17,14 +17,15 @@ function test() {
     // if (compChoice == slap) { slap + enHealth }
     // console.log(compChoice)
     let compAttack = options[randomIndex]
-    console.log(compAttack.name + compAttack.damage)
+    // console.log(compAttack.name + compAttack.damage)
+    let compAttack - enHealth
 }
 
 function slap() {
     health = health - 2;
     p1count = p1count + 1;
     update()
-    test()
+    player2()
 }
 
 // function work() {
